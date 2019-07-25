@@ -1,0 +1,15 @@
+ git pull --rebase origin master：一直报错
+解决：直接git commit -m "随便写一点东西"
+	再： git push -u origin master
+之后提交直接：git  push origin master
+
+出现很多次无法提交的问题：
+【1】文件名最好不要出现中文
+【2】如果出现
+Untracked files:
+        config.txt
+nothing added to commit but untracked files present
+使用git add config.txt 来添加
+在使用$ git push origin master提交！！！！
+
+			
