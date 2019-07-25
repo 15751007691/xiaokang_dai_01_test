@@ -1,0 +1,4 @@
+ git pull --rebase origin master：一直报错
+解决：直接git commit -m "随便写一点东西"
+	再： git push -u origin master
+之后提交直接：git  push origin master
